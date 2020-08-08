@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" enable-background="new 0 0 48 48" viewBox="0 0 48 48"><pattern id="Unnamed_Pattern_11" width="98" height="86" x="-204" y="-204" overflow="visible" patternUnits="userSpaceOnUse" viewBox="0 -86 98 86"><rect width="98" height="86" y="-86" fill="none"/><rect width="98" height="86" y="-86" fill="#6d6da9"/></pattern><pattern id="SVGID_1_" patternTransform="translate(-74 -30)" xlink:href="#Unnamed_Pattern_11"/><path fill="url(#SVGID_1_)" d="M47.11,13.16L34.84,0.89C34.26,0.32,33.49,0,32.68,0H15.32c-0.81,0-1.59,0.32-2.16,0.89L0.89,13.16
+		C0.32,13.74,0,14.51,0,15.32v17.35c0,0.81,0.32,1.59,0.89,2.16l12.27,12.27c0.57,0.57,1.35,0.89,2.16,0.89h17.35
+		c0.81,0,1.59-0.32,2.16-0.89l12.27-12.27c0.57-0.57,0.89-1.35,0.89-2.16V15.32C48,14.51,47.68,13.74,47.11,13.16z M41.89,31.41
+		L31.41,41.89H16.59L6.11,31.41V16.59L16.59,6.11h14.82l10.48,10.48V31.41z"/><pattern id="SVGID_2_" patternTransform="translate(-74 -30)" xlink:href="#Unnamed_Pattern_11"/><path fill="url(#SVGID_2_)" d="M24,19.68l-5.26-5.26c-1.19-1.19-3.13-1.19-4.32,0c-1.19,1.19-1.19,3.13,0,4.32L19.68,24l-5.26,5.26
+		c-1.19,1.19-1.19,3.13,0,4.32c0.6,0.6,1.38,0.89,2.16,0.89c0.78,0,1.56-0.3,2.16-0.89L24,28.32l5.26,5.26
+		c0.6,0.6,1.38,0.89,2.16,0.89c0.78,0,1.56-0.3,2.16-0.89c1.19-1.19,1.19-3.13,0-4.32L28.32,24l5.26-5.26
+		c1.19-1.19,1.19-3.13,0-4.32c-1.19-1.19-3.13-1.19-4.32,0L24,19.68z"/></svg>
