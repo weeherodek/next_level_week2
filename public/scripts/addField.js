@@ -1,37 +1,25 @@
 document.querySelector('#add-time').addEventListener('click', cloneField);
-
-// document.querySelector('#add-time').addEventListener('click', addDeleteButton);
+let i = 0;
 
 function cloneField(){
-   const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
+    const img = '<div class="delete-button" ><button class="delete-schedule-item" form="schedule-item" onclick="removeField(this)"><img src="/images/icons/delete.svg">Excluir</button></div>'
+    const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
 
-   const fields = newFieldContainer.querySelectorAll('input')
+    const fields = newFieldContainer.querySelectorAll('input')
 
-
-   fields.forEach((field)=> {
+    // const body = document.querySelector('body').insertAdjacentHTML("beforeend", '<script src="/scripts/removeField.js"></script>')
+    fields.forEach((field)=> {
        field.value = ""
-   });
+    });
 
-   document.querySelector('#schedule-items').appendChild(newFieldContainer)
+    const lastaddded = document.querySelector('#schedule-items').appendChild(newFieldContainer)
+    lastaddded.insertAdjacentHTML("beforeend", img)
+    
 
-
+    // var script = document.createElement('script')
+    // script.type = "text/javascript";
+    // script.src = "/scripts/removeField.js"
+    // document.getElementsByTagName('body')[0].appendChild(script)
+    i++;
+ 
 }
-
-
-
-// function addDeleteButton(){
-//     var button = document.createElement('button')
-//     button.classList.add('delete-schedule-item')
-//     button.innerText('teste button')
-//     console.log('button',button)
-//     var img = document.createElement('img')
-//     img.src = '/images/icons/delete.svg'
-//     console.log('img',img)
-//     const schedule = document.querySelector('.schedule-item+.schedule-item')
-//     console.log('schedule',schedule)
-//     schedule.appendChild(button)
-//     const buttonDocument = document.querySelectorAll('.delete-schedule-item')
-//     console.log('buttonDocument',buttonDocument)
-//     // buttonDocument.appendChild(img)
-
-// }

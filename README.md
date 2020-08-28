@@ -4,9 +4,11 @@
 ## Requisitos
 
 ```python
+
 Utilizei [NPM](https://docs.npmjs.com/cli/install) para instalar as dependências do projeto, para instalar pelo npm, utilize o comando "npm i".
 
 Tenha instalado no computador um navegador.
+
 ```
 
 ## Iniciar

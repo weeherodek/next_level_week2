@@ -102,10 +102,30 @@
     border-top: 1px solid var(--color-line-in-white);
 }
 
-/* 
-.delete-schedule-item{
-    width: 500px;
-} */
+.delete-button{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.delete-button img{
+    width: 15px;
+    margin-right: 0.6rem;
+}
+
+
+.delete-button button{
+    background: none;
+    border: 0;
+    color: var(--color-primary);
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.delete-button button:hover{
+    transform: translateY(-5px);
+    color:var(--color-primary-dark);
+}
 
 @media(min-width: 700px){
     #page-give-classes #container {
